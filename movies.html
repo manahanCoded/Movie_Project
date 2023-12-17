@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en"  data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIONFLIX</title>
+    <script src="https://kit.fontawesome.com/f710e7073a.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!--Header Section-->
+    <header class="p-3 text-bg-dark">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+    
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li ><a href="#" class="nav-link px-2 text-white" >Dev<span> Dionell </span><i class="fa-solid fa-code"></i></a></li>
+              <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="movies.html" class="nav-link px-2 text-white"><span class="text-danger">Movies</span></a></li>
+              <li><a href="trending.html" class="nav-link px-2 text-white">Trending</a></li>
+              <li><a href="new.html" class="nav-link px-2 text-white">New Release</a></li>
+              
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-white" placeholder="Search" aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <a href="#sign_in"><button type="button" class="btn btn-outline-light me-2">Login</button></a>
+              <a href="#sign_in"><button type="button" class="btn btn-warning">Sign-up</button></a>
+            </div>
+          </div>
+        </div>
+      </header>
+<!--Movie Section-->
+<!--premiere Icon Section-->
+<header class="pb-3 mb-0 border-bottom">
+    <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+      <span class="fs-4 text-danger mx-3"><b>DIONFLIX</b></span>
+    </a>
+  </header>
+<!--premiere show Section-->
+
+  <div id="premiere_container"  class="container-fluid  py-5 ">
+    <div class="premiere_information col-lg-5 ">
+    <h1 class="display-5 fw-bold text-danger">The Mapmaker's Soul</h1>
+    <p class="col-md-8 fs-8">A love story as beautiful and timeless as the music of Chopin, where two souls find solace and inspiration in each other's arms.</p>
+    <button class="btn btn-light fw-bold btn-lg" type="button">New Release</button>
+    </div>
+  </div>
+
+
+<!--Movie show Section-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      
+        <div class="row">
+            <div class="movie_container">
+                <div class="movie_selection">
+                  <h2 class="text-light"><b>TRENDING</b></h2>
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div id="movie_1" class="h-100 p-5  border rounded-3">
+                            <h2 class="text-danger">The Mapmaker's Soul</h2>
+                            <p>A love story as beautiful and timeless as the music of Chopin, where two souls find solace and inspiration in each other's arms.
+                            </p>
+                            <button class="btn btn-outline-secondary" type="button">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div id="movie_2" class="h-100 p-5  border rounded-3">
+                        <h2 class="text-danger">Fractured Crowns</h2>
+                        <p>On the frontier of a dying planet, a jaded scavenger and a starry-eyed astronomer strike an unlikely deal, navigating the debris of a world to find both redemption and a flicker of hope.</p>
+                        <button class="btn btn-outline-secondary" type="button">Watch Now</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="carousel-item">
+        <div class="row">
+            <div class="movie_container">
+                <div class="movie_selection">
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div id="movie_3" class="h-100 p-5  border rounded-3">
+                            <h2 class="text-danger">Stardust and Rust</h2>
+                            <p> In a crumbling dynasty where loyalty is as brittle as china, two exiled siblings clash for the throne, their love for each other as fractured as the kingdom they crave.
+                            </p>
+                            <button class="btn btn-outline-secondary" type="button">Watch Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div id="movie_4" class="h-100 p-5 border rounded-3">
+                        <h2 class="text-danger">The Painted Cage</h2>
+                        <p>When a curious child stumbles upon an abandoned windmill rumored to house ghosts, she unearths a chilling tale of betrayal and vengeance, echoing through the ages on the wind.</p>
+                        <button class="btn btn-outline-secondary" type="button">Watch Now</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+        <div class="row">
+            <div class="movie_container">
+                <div class="movie_selection">
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                        <div id="movie_5" class="h-100 p-5  border rounded-3">
+                            <h2 class="text-danger">The Crimson Thread</h2>
+                            <p>Under the watchful gaze of an ancient moonstone, a forbidden romance blossoms between a rebellious princess and a charismatic outcast, igniting a revolution that threatens to shatter the foundations of their rigid society.</p>
+                            <button class="btn btn-outline-secondary" type="button">Watch Now</button>
+                        </div>
+                    </div>
+                    <div  class="col-md-6">
+                    <div id="movie_6" class="h-100 p-5  border rounded-3">
+                        <h2 class="text-danger">The Alchemist's Gambit</h2>
+                        <p>Behind the glittering facade of a Venetian masquerade, a web of deceit and vengeance unfolds as a masked courtesan embarks on a dangerous game to expose the truth behind a noble family's dark past.</p>
+                        <button class="btn btn-outline-secondary" type="button">Example button</button>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Movies Section Two Card Main-->
+<div id="movie_section_card_2_container" class="album py-5 bg-body-tertiary">
+    <div  class="container">
+      <h2 class="text-light"><b>Movies</b></h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-cottonbro-studio-6899938.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-krivec-ales-551852.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-bruno-massao-2873486 (1).jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-nappy-936094.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-lucas-andrade-2862718.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-pixabay-163347.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-tembela-bohle-1884574.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-tima-miroshnichenko-7991579.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="movie_section_two_card">
+        <div class="col">
+            <div class="card shadow-sm ">
+                <div id="movie_section_card_1" class="card-body">
+                  </div>  
+              <img class="bd-placeholder-img card-img-top" width="100%" height="245" src="pexels-darina-çiço-103567.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></img>
+              
+              <div id="movie_section_card_2" class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                      <a  href=""><button id="play_button" type="button" class="btn btn-sm btn-light fw-bold btn-outline-dark"><b><i class="fa-solid fa-play"></i>Play</b></button></a>
+                      <a  href=""><button id="list_button" type="button" class="btn btn-sm  fw-bold btn-outline-white"><b><i class="fa-solid fa-plus"></i>My List</b></button></a>
+                  </div>
+                  <small class="text-body-secondary">9 mins</small>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+      </div>
+    </div>
+  </div>
+<!--Footer in Section-->
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="https://manahancoded.github.io/manahan_portfolio/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Dev<span> Dionell </span><i class="fa-solid fa-code"></i>, Inc</span>
+      </a> 
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/dionmanahan/"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+      <li class="ms-3" ><a class="text-body-secondary" href="https://github.com/manahanCoded"><i class="fa-brands fa-github fa-xl" ></i></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/dionell-manahan-479901299/"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+    </ul>
+  </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#movie-type{
+    height: 50vh;
+    
+}
+#movie-type:nth-child(1){
+    background-image: url("pexels-cottonbro-studio-6899938.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie-type:nth-child(2){
+    background-image: url("pexels-lucas-andrade-2862718.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie-type:nth-child(3){
+    background-image: url("pexels-pixabay-163347.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#introduction_image{
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+
+
+/*Movie Section new Section*/
+#premiere_container{
+    display: table;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('pexels-cottonbro-studio-6899938.jpg');
+    background-position: center top;
+    height: 80vh;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.premiere_information{
+    padding: 30px;
+}   
+.movie_selection{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to bottom,black  0%,#434343  100%);
+    padding: 30px;
+}
+.movie_selection_section_two{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+    padding: 30px;
+    
+}
+.movie_selection{
+    gap: 10;   
+}
+
+
+    
+#movie_1:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+
+#movie_1{
+    background-image: url("pexels-cottonbro-studio-6899938.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+#movie_2{
+    background-image: url("pexels-lucas-andrade-2862718.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_2:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+#movie_3{
+    background-image: url("pexels-pixabay-163347.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_3:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+#movie_4{
+    background-image: url("pexels-cottonbro-studio-6899938.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_4:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+#movie_5{
+    background-image: url("pexels-lucas-andrade-2862718.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_5:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+}
+#movie_6{
+    background-image: url("pexels-pixabay-163347.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_6:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    
+}
+
+/*Movies*/
+#movie_section_card_2_container{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+}
+.movie_section_two_card img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#movie_section_card_1 {
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to bottom, #434343 0%, black 100%);
+}
+ #movie_section_card_2{
+    background: rgb(2,0,36);
+    background-image: linear-gradient(to bottom, black 0%, #434343  100%);
+ }
+ .new_background{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-tima-miroshnichenko-7991579.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px;
+}
+#new_bar{
+    padding-bottom: 30px;
+}
+#new_section{
+    height: 500px;
+    overflow: auto;
+    
+}
+/*TRENDING SECTION*/
+#trending_introduction{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pexels-tima-miroshnichenko-7991579.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:30px;
+
+}
